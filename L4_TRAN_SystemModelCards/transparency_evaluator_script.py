@@ -1,13 +1,6 @@
 #!/usr/bin/env python3
-"""
-Model Card Transparency L4 Evaluator
-Supports PDF, TXT, DOC, and DOCX files
 
-Usage:
-    python transparency_evaluator.py model_card.pdf
-    python transparency_evaluator.py model_card.txt --model gpt-4-turbo
-    python transparency_evaluator.py *.pdf --batch
-"""
+
 
 import openai
 import json
